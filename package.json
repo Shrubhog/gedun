@@ -1,0 +1,22 @@
+{
+  "name": "gedun",
+  "version": "0.0.1",
+  "description": "A simple app to help you get things done.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shrubhog/gedun.git"
+  },
+  "author": "Shrubhog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shrubhog/gedun/issues"
+  },
+  "homepage": "https://github.com/Shrubhog/gedun#readme",
+  "dependencies": {
+    "electron": "^2.0.0"
+  }
+}
