@@ -2,12 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="bootstrap/js/bootstrap.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" charset="utf-8"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-      We are using node <script>document.write(process.versions.node)</script>,
-      Chrome <script>document.write(process.versions.chrome)</script>,
-      and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="nav flex-column nav-pills nav-stacked" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Start List</a>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+        <form>
+				   <div class="form-check">
+					    <label>
+                <div onclick="done('starter')" id="starter">
+					        <input type="checkbox" name="check"> <span class="label-text">This is the default checkbox.</span>
+                </div>
+				     </label>
+			    </div>
+			   </form>
+      </div>
+    </div>
   </body>
 </html>
