@@ -2,7 +2,7 @@
   "name": "gedun",
   "version": "0.0.1",
   "description": "A simple app to help you get things done.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
