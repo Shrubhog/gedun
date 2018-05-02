@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Shrubhog/gedun#readme",
   "dependencies": {
-    "electron": "^2.0.0"
+    "electron": "^2.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
   }
 }
